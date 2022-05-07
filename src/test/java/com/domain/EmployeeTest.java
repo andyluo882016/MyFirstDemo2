@@ -2,7 +2,7 @@ package com.domain;
 
 import com.demo.Show;
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 //import org.mockito.Mock;
 //import org.junit.Test;
@@ -13,11 +13,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EmployeeTest {
 
     Employee employee = new Employee("Jeff Smith", 29);
+    private Employee emp;
     //@Mock
     //Address address;
-    @BeforeAll
-    static void setup() {
-        //employee = new Employee("Jeff Smith", 28);
+    @BeforeEach
+    public void initEach() {
+        emp = new Employee("Jeff Steven", 28);
 
     }
     @Test
@@ -39,6 +40,10 @@ public class EmployeeTest {
     void testAddress() {
         Address address = new Address("30 ES St", "CM");
         assertNotNull(address.getState());
+    }
+    @Test
+    public void testmore(){
+        assertSame(28, emp.getAge());
     }
 
 
