@@ -14,10 +14,10 @@ public class EmployeeTest {
 
     Employee employee = new Employee("Jeff Smith", 29);
     //@Mock
-     //Address address;
+    //Address address;
     @BeforeAll
     static void setup() {
-       //employee = new Employee("Jeff Smith", 28);
+        //employee = new Employee("Jeff Smith", 28);
 
     }
     @Test
@@ -37,7 +37,7 @@ public class EmployeeTest {
     }
     @Test
     void testAddress() {
-       Address address = new Address("30 ES St", "CM");
+        Address address = new Address("30 ES St", "CM");
         assertNotNull(address.getState());
     }
 

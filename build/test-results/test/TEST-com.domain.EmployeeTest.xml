@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.domain.EmployeeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-02T04:45:42" hostname="andy-GL72-7RD" time="0.083">
+<testsuite name="com.domain.EmployeeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-07T21:21:56" hostname="andy-GL72-7RD" time="0.011">
   <properties/>
-  <testcase name="setAge()" classname="com.domain.EmployeeTest" time="0.083"/>
+  <testcase name="testAddress()" classname="com.domain.EmployeeTest" time="0.001"/>
+  <testcase name="getAge()" classname="com.domain.EmployeeTest" time="0.001"/>
+  <testcase name="setAge()" classname="com.domain.EmployeeTest" time="0.007"/>
   <system-out><![CDATA[-->> 10  8
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Employee {
 
-      private String id;
-      private Integer age;
+    private String id;
+    private Integer age;
 
     public String getId() {
         return id;

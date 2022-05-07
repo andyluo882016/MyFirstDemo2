@@ -1,2 +1,2 @@
 rootProject.name = 'MyFirstDemo'
-
+include('com.demo.MainTest')
